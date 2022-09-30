@@ -1,7 +1,7 @@
 window.onload = function() {
     const useNodeJS = false; 
-    const defaultLiffId = "1656652460-LGKR2XXJ";
-    let myLiffId = "1656652460-LGKR2XXJ";
+    const defaultLiffId = "1657518302-rD2q2axM";
+    let myLiffId = "1657518302-rD2q2axM";
 
     if (useNodeJS) {
         fetch('/liff/send-id', {
@@ -46,8 +46,8 @@ function sendLiff(){
             text: getParameterByName('text'),
             sentBy: {
                 label: "もバンズ",
-                iconUrl: "https://i.ibb.co/HnN4jFP/hlth-up.gif",
-                linkUrl: "https://Mo-banzu.github.io"
+                iconUrl: "https://i.ibb.co/0syzpzb/HOME-full-color.png",
+                linkUrl: "https://lahmrev.github.io"
             }
         }]).then(function () {
             liff.closeWindow();
@@ -59,8 +59,8 @@ function sendLiff(){
             previewImageUrl: getParameterByName('img'),
             sentBy: {
                 label: "もバンズ",
-                iconUrl: "https://i.ibb.co/HnN4jFP/hlth-up.gif",
-                linkUrl: "https://Mo-banzu.github.io"
+                iconUrl: "https://i.ibb.co/0syzpzb/HOME-full-color.png",
+                linkUrl: "https://lahmrev.github.io"
             }
         }]).then(function () {
             liff.closeWindow();
