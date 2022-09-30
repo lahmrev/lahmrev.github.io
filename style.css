@@ -22,14 +22,14 @@ html, body {
     height: 100%;
     }
 
-h1 {
+h2 {
   display: inline-block;
   color: white;
   font-family: 'Righteous', serif;
   font-size: 9em; 
   text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
   }
-  h1:after {
+  h2:after {
     content: attr(data-shadow);
     position: absolute;
     top: .06em; left: .06em;
