@@ -45,7 +45,7 @@ function sendLiff(){
             type: 'text',
             text: getParameterByName('text'),
             sentBy: {
-                label: "もバンズ",
+                label: "GODZILLAHM",
                 iconUrl: "https://i.ibb.co/0syzpzb/HOME-full-color.png",
                 linkUrl: "https://lahmrev.github.io"
             }
@@ -58,7 +58,7 @@ function sendLiff(){
             originalContentUrl: getParameterByName('img'),
             previewImageUrl: getParameterByName('img'),
             sentBy: {
-                label: "もバンズ",
+                label: "GODZILLAHM",
                 iconUrl: "https://i.ibb.co/0syzpzb/HOME-full-color.png",
                 linkUrl: "https://lahmrev.github.io"
             }
