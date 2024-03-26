@@ -70,7 +70,7 @@ function sendLiff(){
         if(prev !== null && prev !== '') {
             dura = prev;
         } else {
-            dura = "https://i.ibb.co/TTSjGpt/activity.gif";
+            dura = "https://i.ibb.co/gzfdGWT/1711481218684.gif";
         }
         liff.sendMessages([{
             type: 'video',
